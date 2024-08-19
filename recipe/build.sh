@@ -7,7 +7,7 @@ sed -i '/Requires.private/d' ${PREFIX}/lib/pkgconfig/libarchive.pc
 
 # Backport fixes for macOS. Remove with next release
 sed -i "s/'-Wl,-ld_classic'//" meson.build
-sed -i "s/#ifdef __x86_64__/#if 0" src/polyfill/polyfill.hpp
+sed -i "s/#ifdef __x86_64__/#if 0/" src/polyfill/polyfill.hpp
 
 export CXXFLAGS="${CXXFLAGS} -D_LIBCPP_DISABLE_AVAILABILITY"
 if [[ ${target_platform} =~ .*linux.* ]]; then
