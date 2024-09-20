@@ -1,5 +1,5 @@
 {% set name = "mesonlsp" %}
-{% set version = "4.3.3" %}
+{% set version = "4.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/JCWasmx86/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 3f68baa8a4e57da14c74d8c62132ef02f95ecee3879dba2be7ba328b476e1553
+  sha256: 38c36194eee00ab4010c2715113e9695b5a452af7c6d24ecb4c63cabf63259c5
 
 build:
   number: 0
