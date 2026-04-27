@@ -1,5 +1,5 @@
 context:
-  version: "5.0.0"
+  version: "5.0.2"
 
 package:
   name: mesonlsp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/JCWasmx86/mesonlsp/archive/v${{ version }}.tar.gz
-  sha256: d45b85c525393cc24c446b813a6c09fe8cd252153207b77b486f77173d9ab8b4
+  sha256: bf7908b79d5e216cf77847916c1c83b76a01d5e375a94c241d83fc5170ead374
 
 build:
   number: 0
